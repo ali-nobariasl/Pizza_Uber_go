@@ -1,5 +1,6 @@
 package main
 
 type OrderFormat struct {
-	Pizza
+	PizzaTypes []string
+	PizzaSizes []string
 }
