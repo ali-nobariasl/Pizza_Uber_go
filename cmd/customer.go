@@ -1,10 +1,12 @@
 package main
 import "github.com/gin-gonic/gin"
 
+
 type OrderFormat struct {
 	PizzaTypes []string
 	PizzaSizes []string
 }
+
 
 type OrderRequest struct {
 	Name         string   `form:"name" binding:"required, min=2, max=100"`
@@ -15,4 +17,4 @@ type OrderRequest struct {
 	Instructions string   `form:"instructions" binding:"max=500"`
 }
 
-func 
+func sfd
